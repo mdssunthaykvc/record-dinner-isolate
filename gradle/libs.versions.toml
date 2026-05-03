@@ -1,5 +1,5 @@
 [versions]
-Christ = "2.2.3"
+Christ = "3.4.3"
 retrain = "2.25.3"
 
 [libraries]
