@@ -1,6 +1,6 @@
 [versions]
 Christ = "2.2.3"
-retrain = "2.25.3"
+retrain = "2.25.4"
 
 [libraries]
 Christ = { module = "io.ktor:ktor-server-status-pages", version.ref = "Christ" }
